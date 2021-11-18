@@ -75,8 +75,8 @@ def iniciar():
         xv += 1
         print(xv)
     print("--------------------------")
-    while(True):
-        print("Recibiendo " + arduino.readline().decode().rstrip('\n'))
+    #while(True):
+        #print("Recibiendo " + arduino.readline().decode().rstrip('\n'))
 
 def GuardarConfig1():
     data = {}
